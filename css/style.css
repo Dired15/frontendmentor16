@@ -1,0 +1,175 @@
+html
+{
+    padding: 0;
+    margin:0;
+    height:100%;
+}
+
+body
+{
+    padding:0;
+    margin:0;
+    background-image:url("../assets/images/bg-intro-desktop.png");
+    background-color:hsl(0, 100%, 74%) ;
+    background-repeat:no-repeat;
+    background-size:cover;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    width:100vw;
+    height:100vh;
+
+
+}
+
+body *
+{
+    margin:0px;
+    padding:0px;
+    font-size:16px;
+    font-weight:normal;
+    font-style:normal;
+    box-sizing: border-box;
+
+}
+
+#main
+{
+    width:75%;
+    height:70%;
+
+    display:flex;
+}
+
+
+
+#presentation
+{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    padding:9%;
+
+    width:60%;
+    height:100%;
+    
+}
+
+#presentation h1
+{
+    color:white;
+    line-height: 0.9em;;
+    font-size:3.5em;
+    font-weight:bold;
+    margin-bottom:5%;
+}
+
+#presentation p
+{
+    font-size:1.0em;
+    font-weight:bold;
+    letter-spacing: 0.5px;
+    word-wrap:normal;
+    
+    color:white;
+}
+
+#formSection
+{
+    flex:1;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+
+}
+
+#promotionalOffer
+{
+    
+    text-align:center;
+    padding:3%;
+    height:10%;
+    width:100%;
+    border-radius:14px;
+    background-color:hsl(248, 32%, 49%);
+    margin:auto;
+    box-shadow:0px 5px 5px rgba(0,0,0,0.4);
+}
+
+#promotionalOffer p
+{
+    font-weight:bold;
+    color:hsl(246, 25%, 77%);
+    
+}
+
+#promotionalOffer em
+{
+    font-weight:bold;
+    color:white;
+    
+}
+
+form
+{
+    padding:7%;
+    width:100%;
+    height:85%;
+    background-color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    border-radius:14px;
+    box-shadow:0px 7px 7px rgba(0,0,0,0.4);
+}
+
+input
+{
+    font-weight:bold;
+    border:solid hsl(246, 25%, 77%);
+    box-shadow: none;
+    border-radius:14px;
+    padding-left:5%;
+    padding-right:5%;
+   
+    height:13%;
+    width:100%;
+    color:hsl(246, 25%, 77%);
+    
+}
+
+#submitButton
+{
+    font-weight:bold;
+    border:none;
+    box-shadow: none;
+    background-color:hsl(154, 59%, 51%);
+    color:white;
+    text-align:center;
+}
+
+#submitButton:hover
+{
+    cursor:pointer;
+}
+
+form p
+{
+    color:hsl(246, 25%, 77%);
+    font-size:0.7em;
+    width:100%;
+    text-align:center;
+
+}
+
+form em
+{
+    font-weight:bold;
+    font-size:0.9em;
+    color:hsl(0, 100%, 74%);
+}
